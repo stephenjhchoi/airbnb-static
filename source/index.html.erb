@@ -2,7 +2,7 @@
 title: Le Wagon Middleman boilerplate
 ---
 <!-- Your banner code -->
-<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg');">
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path "images/background.jpg" %>');">
   <div class="banner-content">
     <h1>WELCOME TO THE JUNGLE</h1>
     <p>Rent my jam with style</p>
@@ -32,25 +32,25 @@ title: Le Wagon Middleman boilerplate
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-3">
-              <img src="images/globe.png" alt="globe">
+              <%= image_tag "images/globe.png" %>
               <h2>Discover the world</h2>
               <p>Raccoon is your home.</p>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-3">
-              <img src="images/dollar.png" alt="dollar">
+              <%= image_tag "images/dollar.png" %>
               <h2>Pay Online</h2>
               <p>No cash issues anymore.</p>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-3">
-              <img src="images/beer.png" alt="beer">
+              <%= image_tag "images/beer.png" %>
               <h2>Meet people</h2>
               <p>Discover new culture and lifestyle.</p>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-3">
-              <img src="images/heart.png" alt="heart">
+              <%= image_tag "images/heart.png" %>
               <h2>Share and love</h2>
               <p>Join a community you will love.</p>
             </div>
@@ -65,37 +65,37 @@ title: Le Wagon Middleman boilerplate
           <div class="row">
             <div class="col-xs-12 col-sm-4">
               <!-- insert <div class="card"> -->
-              <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/hbs.jpg');">
+              <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= image_path "images/hbs.jpg" %>');">
                 <div class="card-category">Boston</div>
                 <div class="card-description">
                   <h2>Remi's home</h2>
                   <p>HBS bitchessss!</p>
                 </div>
-                <img class="card-user avatar avatar-large" src="images/remi.jpeg">
+                <%= image_tag "images/remi.jpeg", class: "card-user avatar avatar-large" %>
                 <a href="#" class="card-link"></a>
               </div>
             </div>
             <div class="col-xs-12 col-sm-4">
               <!-- insert <div class="card"> -->
-              <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-pb.jpg');">
+              <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= image_path "images/card-pb.jpg" %>');">
                 <div class="card-category">Tokyo</div>
                 <div class="card-description">
                   <h2>Taka's home</h2>
                   <p>Peanut butter hell</p>
                 </div>
-                <img class="card-user avatar avatar-large" src="images/taka.jpeg">
+                <%= image_tag "images/taka.jpeg", class: "card-user avatar avatar-large" %>
                 <a href="#" class="link"></a>
               </div>
             </div>
             <div class="col-xs-12 col-sm-4">
               <!-- insert <div class="card"> -->
-              <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/money.jpg');">
+              <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= image_path "images/money.jpg" %>');">
                 <div class="card-category">London</div>
                 <div class="card-description">
                   <h2>Archie's home</h2>
                   <p>Get me dat money ye boi</p>
                 </div>
-                <img class="card-user avatar avatar-large" src="images/archie.jpeg">
+                <%= image_tag "images/archie.jpeg", class: "card-user avatar avatar-large" %>
                 <a href="#" class="link"></a>
               </div>
             </div>
