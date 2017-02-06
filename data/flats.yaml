@@ -1,0 +1,32 @@
+remi:
+  image: some_product.png
+  owner_name: Remi d'Yvoire
+  picture: hbs.jpg
+  owner_picture: remi.jpeg
+  name: Remi's home
+  summary: Cute room in 19e
+  city: Paris, France
+  wifi: false
+  rating: 2
+
+taka:
+  image: some_product.png
+  owner_name: Taka Heeerooee
+  picture: card-pb.jpg
+  owner_picture: taka.jpeg
+  name: Taka's flat
+  summary: Cute room in Montmartre
+  city: Tokyo, Japan
+  wifi: true
+  rating: 2
+
+archie:
+  image: some_product.png
+  owner_name: Archie GilBear
+  picture: money.jpg
+  owner_picture: archie.jpeg
+  name: Archie's pad
+  summary: Cute room in Montmartre
+  city: San Francisco, CA
+  wifi: true
+  rating: 3
